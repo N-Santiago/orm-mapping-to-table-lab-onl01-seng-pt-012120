@@ -27,4 +27,6 @@ def initialize(name, grade, id=nil)
     DB[:conn].execute(sql)
   end
   
+  
+  
 end
