@@ -37,4 +37,6 @@ def initialize(name, grade, id=nil)
     @id = DB[:conn].execute("SELECT last_insert_rowid() FROM students")[0][0]
   end
   
+  
+  
 end
