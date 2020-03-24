@@ -24,7 +24,7 @@ def initialize(name, grade, id=nil)
     #sql =  <<-SQL
       #DROP TABLE IF EXISTS students
         #SQL
-    sql = ""    
+    sql = "DROP TABLE IF EXISTS students"    
     DB[:conn].execute(sql)
   end
   
