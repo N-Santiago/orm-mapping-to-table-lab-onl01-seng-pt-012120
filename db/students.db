@@ -1,4 +1,4 @@
 CREATE TABLE students (id INTEGER PRIMARY KEY, name TEXT, grade TEXT);
 
-DROP TABLE students (id INTEGER PRIMARY KEY, name TEXT, grade TEXT);
+DROP TABLE students;
 
