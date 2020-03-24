@@ -22,11 +22,7 @@ def initialize(name, grade, id=nil)
   
   def self.drop_table
     sql =  <<-SQL
-      DROP TABLE IF NOT EXISTS students (
-        id INTEGER PRIMARY KEY, 
-        name TEXT, 
-        grade TEXT
-        )
+      DROP TABLE IF NOT EXISTS students
         SQL
     DB[:conn].execute(sql)
   end
